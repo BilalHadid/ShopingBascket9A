@@ -32,17 +32,17 @@ const INITIAL_STATE: ProductItem[] = [
     id: "0",
     name: "Alexa Lace-Up Sports Shoes",
     src:
-      "https://assets.ajio.com/medias/sys_master/root/hd4/h99/14092964397086/-1117Wx1400H-460455972-black-MODEL.jpg",
+      "https://kickz.akamaized.net/us/media/images/p/600/nike-ADAPT_BB_2_0_EU-WHITE_BLACK_MULTI_COLOR-1.jpg",
     price: 100,
     quantity: 0,
     added: false,
-    detail: "Buy Black Sports Shoes for Women ",
+    detail: "material: 20.0% Leather 37.0% Synthetic 43.0% Textile",
   },
   {
     id: "1",
-    name: "Nike Adapt BB 2.00",
+    name: "Nike Adapt Hurache",
     src:
-      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/i1-9cfea66d-b519-4b29-8e43-ce4164e8c558/adapt-bb-2-tie-dye-basketball-shoe-vdFwKS.jpg",
+      "https://sneakers123.s3.amazonaws.com/release/102512/nike-adapt-huarache-ct4092-300.jpg",
     price: 200,
     quantity: 0,
     added: false,
@@ -52,32 +52,33 @@ const INITIAL_STATE: ProductItem[] = [
     id: "2",
     name: "Nike Adapt BB 2.00",
     src:
-      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e5784a9b-9c09-4556-8c5f-297197536393/adapt-bb-2-basketball-shoe-TWc3LQ.jpg",
+      "https://www.bstn.com/media/117328/w/1000/h/1000/n/nike-adapt-huarache-ct4092-300-1.jpg",
     price: 300,
     quantity: 0,
     added: false,
-    detail: "My family is dysfunctional and my parents won't empower me",
+    detail: "A great style tennis shoe from sportswear giant Fila",
   },
 
   {
     id: "4",
     name: "Alexa Lace-Up Sports Shoes",
     src:
-      "https://assets.ajio.com/medias/sys_master/root/hd4/h99/14092964397086/-1117Wx1400H-460455972-black-MODEL.jpg",
+      "https://sneakers123.s3.amazonaws.com/release/88012/nike-adapt-huarache-ct4092-710.jpg",
     price: 100,
     quantity: 0,
     added: false,
-    detail: "Buy Black Sports Shoes for Women ",
+    detail: "Push your gym session further in the Nike ",
   },
   {
     id: "5",
     name: "Nike Adapt BB 2.00",
     src:
-      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/i1-9cfea66d-b519-4b29-8e43-ce4164e8c558/adapt-bb-2-tie-dye-basketball-shoe-vdFwKS.jpg",
+      "https://www.bstn.com/media/121059/w/1000/h/1000/n/nike-adapt-huarache-ct4092-001-1.jpg",
     price: 200,
     quantity: 0,
     added: false,
-    detail: "Find the Nike Adapt BB 2.0 Tie-Dye at Nike.com.",
+    detail:
+      "Free shipping and returns on FILA WX-100 Sneaker (Women) at Nordstrom.com",
   },
 ];
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Header";
 import "./CardPayment.css";
 import { Link } from "react-router-dom";
@@ -32,8 +32,8 @@ const CardPayment = () => {
               </thead>
               {products
                 .filter((product) => product.added)
-                .map((pro) => (
-                  <tbody>
+                .map((pro, i) => (
+                  <tbody key={i}>
                     <tr>
                       <td data-th="Product">
                         <div className="row">

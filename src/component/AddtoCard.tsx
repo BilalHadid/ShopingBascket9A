@@ -18,8 +18,8 @@ const AddtoCard = () => {
       <div>
         {products.map((product, index) => {
           return (
-            <div className="Product">
-              <figure className="snip1268" key={index}>
+            <div className="Product" key={index}>
+              <figure className="snip1268">
                 <div className="image">
                   <img src={product.src} alt="sq-sample4" />
                   <div className="icons">
