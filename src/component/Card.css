@@ -1,0 +1,134 @@
+.content {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 760px;
+}
+
+/* HEADING STYLES */
+#heading {
+  position: relative; /* This is important */
+  margin: 1.5em 0 0.9em;
+  font-size: 28px;
+  line-height: 1;
+  font-family: serif;
+  text-align: center;
+  overflow: hidden; /* This is important */
+}
+
+/* Create two pseudo-elements */
+#heading:before,
+#heading:after {
+  position: absolute;
+  top: 50%;
+  content: "";
+  width: 50%;
+  height: 2px;
+  display: inline-block;
+  background: #303030;
+}
+
+/* Adjust the "14px" value to change the text's left padding */
+#heading:before {
+  margin-left: calc(-50% - 10px);
+}
+
+/* Adjust the "14px" value to change the text's right padding */
+#heading:after {
+  margin-left: 10px;
+}
+
+/* UNIMPORTANT RESPONSIVE STYLES */
+@media screen and (max-width: 600px) {
+  #heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #heading {
+    font-size: 15px;
+  }
+}
+.col-md-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+.col-md-3 img {
+  width: 100%;
+  height: auto;
+}
+body .carousel-indicators li {
+  background-color: #bd7973;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+  background-color: #bd7973;
+}
+body .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+h1 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 18px;
+}
+/* p {
+  margin: 15px 0;
+  line-height: 24px;
+  color: gainsboro;
+} */
+/* a {
+  color: dodgerblue;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+a:hover {
+  color: tomato;
+} */
+
+.container {
+  max-width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+h1.second {
+  font-weight: 200;
+  margin-top: 25px;
+  margin-bottom: -10px;
+}
+
+h1.second span {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-bottom: 1px solid #bd7973;
+}
+
+h1.second span:after {
+  content: "";
+  position: absolute;
+  bottom: calc(-100% - 1px);
+  margin-left: -10px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-top: 1px solid #bd7973;
+}

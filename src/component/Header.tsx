@@ -6,6 +6,9 @@ import Badge from "@material-ui/core/Badge";
 import { Theme, withStyles, createStyles } from "@material-ui/core/styles";
 import IconButton from "@material-ui/core/IconButton";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import { useSelector } from "react-redux";
+// import {} from '../store/basketSlice'
+import { ProductItem } from "../store/ProductItem";
 
 const StyledBadge = withStyles((theme: Theme) =>
   createStyles({
@@ -18,6 +21,11 @@ const StyledBadge = withStyles((theme: Theme) =>
   })
 )(Badge);
 const Header = () => {
+  const products = useSelector((state: ProductItem[]) => state);
+  let totalPro =
+    products.filter((pro) => pro.added).length <= 0
+      ? 0
+      : products.filter((product) => product.added).length;
   return (
     <div className="Header">
       <div className="Logo">
@@ -29,15 +37,15 @@ const Header = () => {
       <div className="Navbar" style={{ marginBottom: "-35px" }}>
         <ul>
           <li>
-            <Link to="">
+            <Link to="/">
               <i className="fa fa-home"></i>
               {"  "}Home
             </Link>
           </li>
           <li>
-            <Link to="">
+            <Link to="/card">
               <IconButton aria-label="cart" style={{ top: "-15px" }}>
-                <StyledBadge badgeContent={4} color="secondary">
+                <StyledBadge badgeContent={totalPro} color="secondary">
                   <ShoppingCartIcon style={{ color: "white" }} />
                 </StyledBadge>
               </IconButton>
