@@ -52,7 +52,7 @@ const INITIAL_STATE: ProductItem[] = [
     id: "2",
     name: "Nike Adapt BB 2.00",
     src:
-      "https://www.bstn.com/media/117328/w/1000/h/1000/n/nike-adapt-huarache-ct4092-300-1.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/4770494e95d8418ba30aab87000c489f_9366/Dame_6_McDonald's_Shoes_Green_FX3334_01_standard.jpg",
     price: 300,
     quantity: 0,
     added: false,
@@ -78,7 +78,7 @@ const INITIAL_STATE: ProductItem[] = [
     quantity: 0,
     added: false,
     detail:
-      "Free shipping and returns on FILA WX-100 Sneaker (Women) at Nordstrom.com",
+      "Free shipping and returns on FILA WX-100 Sneaker (Women) at Nordstrom.com  ",
   },
 ];
 
