@@ -73,7 +73,7 @@ const INITIAL_STATE: ProductItem[] = [
     id: "5",
     name: "Nike Adapt BB 2.00",
     src:
-      "https://www.bstn.com/media/121059/w/1000/h/1000/n/nike-adapt-huarache-ct4092-001-1.jpg",
+      "https://assets.adidas.com/images/w_600,f_auto,q_auto/449c838942da409f8ba9a97f00d3cffe_9366/Runfalcon_Shoes_Black_F36199_01_standard.jpg",
     price: 200,
     quantity: 0,
     added: false,
